@@ -22,7 +22,7 @@ SSH provides a useful function called port-forwarding (SSH tunnel). Basically th
 1. Remote forwarding. (ssh -NFR 2222:localhost:22 a.b.c.d)
 1. Dynamic forwarding. (ssh -NfD 2222 a.b.c.d)
 
-Here what we need is using **dynamic forwarding** to build a **sockt proxy**. To achieve our goal, we have to prepare a remote server that could access services we need.
+Here what we need is using **dynamic forwarding** to build a **socks proxy**. To achieve our goal, we have to prepare a remote server that could access services we need.
 
 > **Recommendation:** AWS EC2 has one year free charge, build your instance in a nearby region (singapore or japan for me).
 
