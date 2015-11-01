@@ -46,35 +46,35 @@ Table below clearly describes changes brought by DVR.
 
 (CN: Compute Node; NN: Network Node)
 
-** Without DVR **
+**Without DVR**
 ![](resources/images/vxlan_no_dvr.jpg)
 
-** With DVR **
+**With DVR**
 ![](resources/images/vxlan_with_dvr.jpg)
 
 ## Deployment Scenarios
 
-** Scenario 1: East-West Traffic for instances using same network on same node **
+**Scenario 1: East-West Traffic for instances using same network on same node**
 ![](resources/images/scenario_1.jpg)
 
-** Scenario 2: East-West Traffic for instances using same network on different nodes **
+**Scenario 2: East-West Traffic for instances using same network on different nodes**
 arp ping
 ![](resources/images/scenario_2_arp.jpg)
 data req
 ![](resources/images/scenario_2_data.jpg)
 
-** Scenario 3: East-West Traffic for instances using different network on same router on same node  **
+**Scenario 3: East-West Traffic for instances using different network on same router on same node**
 ![](resources/images/scenario_3.jpg)
 
-** Scenario 4: East-West Traffic for instances using different network on same router on different nodes **
+**Scenario 4: East-West Traffic for instances using different network on same router on different nodes**
 ![](resources/images/scenario_4.jpg)
 
-** Scenario 5: North-South Traffic for instance using floating ip (outside traffic) **
+**Scenario 5: North-South Traffic for instance using floating ip (outside traffic)**
 ![](resources/images/scenario_5.jpg)
 
-** Scenario 6: North-South Traffic for instance using floating ip (inside traffic) **
+**Scenario 6: North-South Traffic for instance using floating ip (inside traffic)**
 ![](resources/images/scenario_6.jpg)
 
-** Scenario 7: North-South Traffic for instance without using floating ip **
+**Scenario 7: North-South Traffic for instance without using floating ip**
 ![](resources/images/scenario_7.jpg)
 
